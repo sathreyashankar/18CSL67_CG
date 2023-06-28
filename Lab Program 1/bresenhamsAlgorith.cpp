@@ -34,7 +34,7 @@ void bresenhams_line_draw(int x1,int y1,int x2,int y2)
 	
 	if(x2<x1)
 		incx=-1;
-	incy-1;
+	incy=1;
 	
 	if(y2-y1)
 		incy=-1;
